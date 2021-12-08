@@ -1,7 +1,7 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
-.about {
+.about-col {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -9,7 +9,9 @@ body{
 }
 .about-div {
     width: 30%;
+    margin: 10px;
+    margin-bottom: 30px;
 }
 .about-img{
-    width: 10rem;
+    width: 100%;
 }
