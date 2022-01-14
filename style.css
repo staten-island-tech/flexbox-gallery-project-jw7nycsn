@@ -104,6 +104,9 @@ body{
    box-shadow: 0 0 5px black;
    text-shadow: 0 0 5px white;
  }
- .nice:hover {
-    
- }
+ .nice { 
+    transition: all .2s ease-in-out; 
+   }
+.nice:hover { 
+   transform: scale(1.1); 
+}
