@@ -80,6 +80,33 @@ body{
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
  }
+
+
+@keyframes fadeInAnimation {
+   0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+   }
+}
+
+@media (max-width: 1000px){
+   .animated{
+      animation: animate-pop;
+      animation-duration: 3s
+   }
+   
+}
+
+ @media (max-width: 600px) {
+    .animated{
+       animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+    }
+   
+}
  .favorite{
    opacity:0.5;
  }
